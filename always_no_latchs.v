@@ -24,3 +24,4 @@ module top_module (
         endcase
     end
 endmodule
+//https://hdlbits.01xz.net/wiki/Always_nolatches
