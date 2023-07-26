@@ -4,7 +4,7 @@ module top_module (
     input [3:0] y, 
     output [4:0] sum,cout);
     
-    wire w1,w2,w3;
+
     
     FA fa1(x[0],y[0],0,cout[0],sum[0]);
     FA fa2(x[1],y[1],cout[0],cout[1],sum[1]);
